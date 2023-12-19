@@ -16,10 +16,10 @@ border-bottom-right-radius: 50px;}
 
 .main{
 /* The image used */
-background-image: url("/images/krasivyi-shkolnyi-fon-1-1\ \(1\).jpeg");
+background-image: url("../images/main_bg.jpeg");
 
 
-/* Create the parallax scrolling effect */
+/* Create the parallax scrolling effect */ 
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
