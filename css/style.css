@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+}
+h1{
+    font-family: 'Comfortaa', sans-serif;
+font-weight: bold;
+font-size: 72px;
+background-color: rgba(245, 245, 245, 0.5);
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;}
+
+.main{
+/* The image used */
+background-image: url("/images/krasivyi-shkolnyi-fon-1-1\ \(1\).jpeg");
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+
+
+h2{
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 60px;}
+
+.cards{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+border: none;
+padding: 3%;}
+
+.card{
+width: 25%;
+height: 60vh;
+box-sizing: border-box;
+padding: 2%;
+border-radius: 15px;
+border: none !important;
+box-shadow: 0px 0px 10px 1px rgba(40,12,55,1);
+transition: .3s;}
+
+.card:hover{
+transition: .3s;
+transform: scale(1.1);
+}
+
+.carousel-indicators{
+bottom: -15%;
+}
+
+.carousel-indicators [data-bs-target]{
+background-color: #280c37;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%280c37'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%280c37'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.carousel-control-next{
+justify-content: flex-end;
+right: 2%;}
+.carousel-control-prev{
+justify-content: flex-start;
+left: 2%;}
+
+iframe{
+width: 50vw;
+margin: 10px;
+box-sizing: border-box;
+border-radius: 15px;
+box-shadow: 0px 0px 10px 1px rgba(40,12,55,1);}
