@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-section {
-    height: 100vh;
-}
+
 h1{
     font-family: 'Comfortaa', sans-serif;
 font-weight: bold;
@@ -30,8 +28,7 @@ align-items: center;
 }
 
 
-
-h2{
+.name_section{
     padding: 50px;
     box-sizing: border-box;
     font-family: 'Comfortaa', sans-serif;
@@ -39,14 +36,22 @@ font-weight: bold;
 text-align: center;
 font-size: 60px;}
 
-.cards{
+h3{
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 48px;}
+
+.cards_news{
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 border: none;
 padding: 3%;}
 
-.card{
+.card_new{
 width: 25%;
 height: 60vh;
 box-sizing: border-box;
@@ -56,7 +61,7 @@ border: none !important;
 box-shadow: 0px 0px 10px 1px rgba(40,12,55,1);
 transition: .3s;}
 
-.card:hover{
+.card_new:hover{
 transition: .3s;
 transform: scale(1.1);
 }
@@ -89,3 +94,28 @@ margin: 10px;
 box-sizing: border-box;
 border-radius: 15px;
 box-shadow: 0px 0px 10px 1px rgba(40,12,55,1);}
+
+
+.card_team{
+margin: 0 auto;
+}
+
+.container_team{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.card-text{
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+}
+
+.accordion{
+    width: 90%;
+    margin: 0 auto;}
+
+.accordion_item{
+border: none;}
