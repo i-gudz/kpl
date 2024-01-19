@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Перша секція */
 
 h1 {
     font-family: 'Comfortaa', sans-serif;
@@ -29,6 +30,8 @@ h1 {
     align-items: center;
 }
 
+/* Кінець стилів
+Друга частина */
 
 .name_section {
     padding: 50px;
@@ -71,8 +74,9 @@ h3 {
     align-items: center;
 }
 
-.card_new img{
-width: 100%;}
+.card_new img {
+    width: 100%;
+}
 
 .card_new:hover {
     transition: .3s;
@@ -277,27 +281,31 @@ iframe {
     bottom: -8%;
 }
 
-.other_news{
+.other_news {
     margin: 4% auto;
-    width: max-content;}
+    width: max-content;
+}
 
-.accordion-header{
-width: max-content;}
+.accordion-header {
+    width: max-content;
+}
 
-.accordion-item{
-border: none !important;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;}
+.accordion-item {
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
-.accordion-button{
+.accordion-button {
     box-sizing: border-box;
     font-family: 'Comfortaa', sans-serif;
     font-weight: bold;
     text-align: center;
-    font-size: 48px;}
+    font-size: 48px;
+}
 
 
 .accordion-button:focus {
@@ -305,5 +313,32 @@ width: 100%;}
     box-shadow: none !important;
 }
 
-.accordion-collapse{
-width: 100%;}
+.accordion-collapse {
+    width: 100%;
+}
+
+footer {
+    height: 100px;
+    background-color: midnightblue;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+
+}
+
+header img {
+    width: 100px;
+}
+
+.bg-body-tertiary {
+    background-color: rgba(128, 128, 128, 0.5) !important;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
